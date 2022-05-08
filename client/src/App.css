@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(204, 131, 181);
+}
+
+input {
+    width: 100%;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: 1px solid rgb(112, 75, 100);
+    padding: 5px;
+    outline: none;
+    color: rgb(112, 75, 100);
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+button {
+    padding: 10px 5px;
+    border: none;
+    background-color: rgb(112, 75, 100);
+    color: white;
+    width: 100px;
+    cursor: pointer;
+    border-radius: 15px;
+
+}
+
+.user {
+    padding: 10px;
+    background-color: rgb(131, 211, 211);
+    margin-top: 15px;
+}
